@@ -1,4 +1,7 @@
 version: '1.0+Appveyor.{build}'
 os: Windows Server 2012
 build_script:
-  - dir c:\py* 
+  - dir c:\Python35
+  - c:\Python35\python -V
+  - python -V
+  - dir c:\windows\py.exe
