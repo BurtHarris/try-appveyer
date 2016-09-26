@@ -1,7 +1,7 @@
 version: '1.0+Appveyor.{build}'
 os: Windows Server 2012
 build_script:
-  - ps : java -version
-  - ps : javac -version
+  - cmd : java -version
+  - cmd : javac -version
   - ps : "$env:path -split ';'"
     
